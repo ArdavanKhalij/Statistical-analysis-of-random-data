@@ -1,5 +1,6 @@
 # Libraries
 library(effsize)
+library(pwr)
 # Read from the file
 data <- read.delim("Question4_3.txt")
 head(data)
@@ -24,3 +25,5 @@ df = split(data, data$Static_Analysis)
 t.test(df[[1]]$Times, df[[2]]$Times)
 # Effect size
 cohen.d(df[[1]]$Times, df[[2]]$Times)
+# Getting the sample size.
+pwr.t.test(n = , d = 0.450709, sig.level = 0.05, power = 0.8)
