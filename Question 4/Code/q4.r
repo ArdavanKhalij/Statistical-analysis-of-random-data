@@ -18,3 +18,5 @@ boxplot(Times~Static_Analysis,
 )
 # Split the table base on Static_Analysis for t-test and cohens'd effect size calculation
 df = split(data, data$Static_Analysis)
+# T-Test
+t.test(df[[1]]$Times, df[[2]]$Times)
