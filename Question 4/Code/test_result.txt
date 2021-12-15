@@ -1,3 +1,8 @@
+Null Hypothesis: Time Means are equal 
+Alternate Hypothesis: Time Means are not Equal
+
+Alpha = 0.05
+--------------------------------------------------------------------
 t = 1.0078, df = 17.837, p-value = 0.327
 alternative hypothesis: true difference in means is not equal to 0
 95 percent confidence interval:
@@ -5,4 +10,8 @@ alternative hypothesis: true difference in means is not equal to 0
 sample estimates:
 mean of x mean of y 
      28.9      26.3 
+--------------------------------------------------------------------
+Report:  t(17.837) = 1.0078, p = 0.327
+Decision: Reject Null Hypothesis at alpha = 0.05
+Meaning: Mean body Time of program with analysis and without analysis are not different
 --------------------------------------------------------------------
