@@ -1,3 +1,5 @@
+# Libraries
+library(effsize)
 # Read from the file
 data <- read.delim("Question4_3.txt")
 head(data)
