@@ -15,3 +15,10 @@ Report:  t(17.837) = 1.0078, p = 0.327
 Decision: Reject Null Hypothesis at alpha = 0.05
 Meaning: Mean body Time of program with analysis and without analysis are not different
 --------------------------------------------------------------------
+Cohen's d
+
+d estimate: 0.450709 (small)
+95 percent confidence interval:
+    lower     upper 
+-0.500706  1.402124 
+--------------------------------------------------------------------
