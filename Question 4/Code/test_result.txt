@@ -1,0 +1,8 @@
+t = 1.0078, df = 17.837, p-value = 0.327
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -2.82358  8.02358
+sample estimates:
+mean of x mean of y 
+     28.9      26.3 
+--------------------------------------------------------------------
