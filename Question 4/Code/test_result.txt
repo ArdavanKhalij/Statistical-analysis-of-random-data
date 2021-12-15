@@ -22,3 +22,15 @@ d estimate: 0.450709 (small)
     lower     upper 
 -0.500706  1.402124 
 --------------------------------------------------------------------
+remember to mention that we only use the rounding for report.
+--------------------------------------------------------------------
+Two-sample t test power calculation 
+
+              n = 78.24796
+              d = 0.450709
+      sig.level = 0.05
+          power = 0.8
+    alternative = two.sided
+
+NOTE: n is number in *each* group
+--------------------------------------------------------------------
