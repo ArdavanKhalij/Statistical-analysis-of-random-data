@@ -7,7 +7,8 @@ hist(data$Times,
 )
 input <- data[,c('Times', Static_Analysis')]
 boxplot(Times~Static_Analysis, 
-     data, ylab="Time", 
+     data, 
+     ylab="Time", 
      xlab = "Static Analysis status", 
      names=c("Static Analysis","No Static Analysis"), 
      main = "Time with and without Static Analysis"
