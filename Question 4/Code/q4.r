@@ -22,3 +22,5 @@ boxplot(Times~Static_Analysis,
 df = split(data, data$Static_Analysis)
 # T-Test
 t.test(df[[1]]$Times, df[[2]]$Times)
+# Effect size
+cohen.d(df[[1]]$Times, df[[2]]$Times)
