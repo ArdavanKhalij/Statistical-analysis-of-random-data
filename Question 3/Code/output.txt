@@ -2,4 +2,8 @@
 --------------------------------------------------------------------------------------------------------------
 We use χ test because fisher test is for 2x2 tables and it is not possible for us to reduce our table to 
 anything less than 3x2 so we reduce our table to 3x4 (combine D and F)
+Overall, I tink χ test is better than fisher because reduce the table to 2xAnything more than 2 instead of 2x2
+can be a better optionand I think fisher test is a good test if we have no other option (In Nominal/Nominal 
+tests).
 --------------------------------------------------------------------------------------------------------------
+
