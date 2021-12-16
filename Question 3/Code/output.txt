@@ -40,3 +40,33 @@ type3:
          + Number of F responses
          = 4+15+22+37+22 = 100
 --------------------------------------------------------------------------------------------------------------
+A = 10
+B = 8
+C = 6
+D = 4
+F = 0
+Then we calculate a wieghted mean for each interface and we have a score for each of them.
+Th one with the heighst score is the best and the one with the lowest score is the worst.
+type1:
+         Score of Interface = ((10xNumber of A responses)
+         +(8 * Number of B responses)
+         +(6 * Number of C responses)
+         +(4 * Number of D responses)
+         +(0 * Number of F responses)
+         = ((21*10)+(38*8)+(26*6)+(15*4))/100 = 7.3
+type2:
+         Score of Interface = ((10xNumber of A responses)
+         +(8 * Number of B responses)
+         +(6 * Number of C responses)
+         +(4 * Number of D responses)
+         +(0 * Number of F responses)
+         = ((13*10)+(22*8)+(26*6)+(27*4))/100 = 5.7
+type3:
+         Score of Interface = ((10xNumber of A responses)
+         +(8 * Number of B responses)
+         +(6 * Number of C responses)
+         +(4 * Number of D responses)
+         +(0 * Number of F responses)
+         = ((4*10)+(15*8)+(22*6)+(37*4))/100 = 4.4
+So type1 interface is the best and type 3 interface s the worst.
+--------------------------------------------------------------------------------------------------------------
