@@ -5,5 +5,7 @@ anything less than 3x2 so we reduce our table to 3x4 (combine D and F)
 Overall, I tink χ test is better than fisher because reduce the table to 2xAnything more than 2 instead of 2x2
 can be a better optionand I think fisher test is a good test if we have no other option (In Nominal/Nominal 
 tests).
+We have a 4 value but it is ok because there should be values 5 or more in 80% of data, if the table is bigger
+than 2x2
 --------------------------------------------------------------------------------------------------------------
 
