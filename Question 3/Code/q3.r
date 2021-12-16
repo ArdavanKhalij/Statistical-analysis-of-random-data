@@ -20,3 +20,5 @@ ggplot(dataq3,
 + geom_point(size = 25, alpha = 0.06) 
 + xlab("Interfaces") + ylab("Responses") 
 + ggtitle("Response per Interface")
+# Make a table
+tab = table(dataq3$Interfaces, dataq3$Responses)
