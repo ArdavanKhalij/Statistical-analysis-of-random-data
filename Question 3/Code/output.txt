@@ -17,3 +17,26 @@ So we can reject the null hypothesis
   type2 13 22 26      39
   type3  4 15 22      59
 --------------------------------------------------------------------------------------------------------------
+First of all we must make sure the number of Responses for each Interface are equal:
+type1: 
+         Number of Responses for type1 Interface = Number of A responses 
+         + Number of B responses 
+         + Number of C responses 
+         + Number of D responses 
+         + Number of F responses
+         = 21+38+26+15+0 = 100
+type2: 
+         Number of Responses for type2 Interface = Number of A responses 
+         + Number of B responses 
+         + Number of C responses 
+         + Number of D responses 
+         + Number of F responses
+         = 13+22+26+27+12 = 100
+type3: 
+         Number of Responses for type3 Interface = Number of A responses 
+         + Number of B responses 
+         + Number of C responses 
+         + Number of D responses 
+         + Number of F responses
+         = 4+15+22+37+22 = 100
+--------------------------------------------------------------------------------------------------------------
