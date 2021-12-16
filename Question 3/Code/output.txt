@@ -10,7 +10,7 @@ than 2x2
 --------------------------------------------------------------------------------------------------------------
 data:  tab
 X-squared = 48.743, df = 6, p-value = 8.392e-09
-So we can reject the null hypothesis
+So we can reject the null hypothesis (There is no connection between interface and the response)
 --------------------------------------------------------------------------------------------------------------
          A  B  C  D or F
   type1 21 38 26      15
