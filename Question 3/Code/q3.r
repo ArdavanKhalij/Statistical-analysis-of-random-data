@@ -22,3 +22,9 @@ ggplot(dataq3,
 + ggtitle("Response per Interface")
 # Make a table
 tab = table(dataq3$Interfaces, dataq3$Responses)
+# Import data
+betterdata <- read.delim("~/Desktop/StatisticsMWO/sample3.txt")
+# Make a table from it
+tab = table(betterdata$Interfaces, betterdata$Responses)
+# χ2 test
+chisq.test(tab)
