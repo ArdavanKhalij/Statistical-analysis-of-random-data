@@ -15,3 +15,8 @@ boxplot(Temperature~CPU_Failure,
         main = "Failure and success, base on temperature", 
         notch=TRUE
        )
+# Split data
+AMDData <- dataq2[dataq2$CPU == "AMD",]
+IntelData <- dataq2[dataq2$CPU == "Intel",]
+AMDData <- AMDData[c("Temperature", "Failure")]
+IntelData <- IntelData[c("Temperature", "Failure")]
