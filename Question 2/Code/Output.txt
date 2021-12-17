@@ -1,0 +1,2 @@
+At first, Failure depends on cpu and temperature, but after converting the dataset, CPU_Failure depends on Temperature.
+------------------------------------------------------------------------------------------------------------------------
