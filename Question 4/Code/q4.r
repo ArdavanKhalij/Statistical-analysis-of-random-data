@@ -27,3 +27,25 @@ t.test(df[[1]]$Times, df[[2]]$Times)
 cohen.d(df[[1]]$Times, df[[2]]$Times)
 # Getting the sample size.
 pwr.t.test(n = , d = 0.450709, sig.level = 0.05, power = 0.8)
+# Leave a value
+# Leave 9
+dfNo1 = df[[1]][sample(nrow(df[[1]]), 9), ]
+# Leave 4th
+dfNo2 = df[[1]][sample(nrow(df[[1]]), 9), ]
+# Leave 7th
+dfNo3 = df[[1]][sample(nrow(df[[1]]), 9), ]
+# Leave 8th
+dfNo4 = df[[1]][sample(nrow(df[[1]]), 9), ]
+# Leave 5th
+dfNo5 = df[[1]][sample(nrow(df[[1]]), 9), ]
+# Leave 1st
+dfNo6 = df[[1]][sample(nrow(df[[1]]), 9), ]
+# Leave 2nd
+dfNo7 = df[[1]][sample(nrow(df[[1]]), 9), ]
+# Leave 6th
+dfNo8 = df[[1]][sample(nrow(df[[1]]), 9), ]
+# Leave 3rd
+dfNo9 = df[[1]][sample(nrow(df[[1]]), 9), ]
+# Leave 10th
+dfNo10 = df[[1]][sample(nrow(df[[1]]), 9), ]
+##############
