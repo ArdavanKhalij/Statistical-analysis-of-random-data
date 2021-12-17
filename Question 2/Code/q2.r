@@ -6,12 +6,12 @@ data_new <- dataq2[c("Temperature", "CPU_Failure")]
 # Box plot
 boxplot(Temperature~CPU_Failure, 
         data_new, 
-        ylab="Time", 
-        xlab = "Static Analysis status", 
-        names=c("AMD_FALSE","AMD_True", 
-                "Intel_FALSE", 
-                "Intel_TRUE"
+        ylab="Temperature", 
+        xlab = "Failure status", 
+        names=c("AMD success","AMD failure", 
+                "Intel success", 
+                "Intel failure"
                ), 
-        main = "Time with and without Static Analysis", 
+        main = "Failure and success, base on temperature", 
         notch=TRUE
        )
