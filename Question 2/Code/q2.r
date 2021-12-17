@@ -16,6 +16,7 @@ boxplot(Temperature~CPU_Failure,
         notch=TRUE
        )
 # Split data
+dataq2 <- read.delim("Question2_1.txt")
 AMDData <- dataq2[dataq2$CPU == "AMD",]
 IntelData <- dataq2[dataq2$CPU == "Intel",]
 AMDData <- AMDData[c("Temperature", "Failure")]
