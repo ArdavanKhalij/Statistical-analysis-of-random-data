@@ -69,3 +69,24 @@ dfYes8 = df[[2]][sample(nrow(df[[2]]), 9), ]
 dfYes9 = df[[2]][sample(nrow(df[[2]]), 9), ]
 # Leave 11th
 dfYes10 = df[[2]][sample(nrow(df[[2]]), 9), ]
+# Calculate each n and d
+cohen.d(dfNo1$Times, dfYes1$Times)
+pwr.t.test(n = , d = 0.3169621, sig.level = 0.05, power = 0.8)
+cohen.d(dfNo2$Times, dfYes2$Times)
+pwr.t.test(n = , d = 0.5356953, sig.level = 0.05, power = 0.8)
+cohen.d(dfNo3$Times, dfYes3$Times)
+pwr.t.test(n = , d = 0.4295492, sig.level = 0.05, power = 0.8)
+cohen.d(dfNo4$Times, dfYes4$Times)
+pwr.t.test(n = , d = 0.266395, sig.level = 0.05, power = 0.8)
+cohen.d(dfNo5$Times, dfYes5$Times)
+pwr.t.test(n = , d = 0.5202273, sig.level = 0.05, power = 0.8)
+cohen.d(dfNo6$Times, dfYes6$Times)
+pwr.t.test(n = , d = 0.6628137, sig.level = 0.05, power = 0.8)
+cohen.d(dfNo7$Times, dfYes7$Times)
+pwr.t.test(n = , d = 0.2824476, sig.level = 0.05, power = 0.8)
+cohen.d(dfNo8$Times, dfYes8$Times)
+pwr.t.test(n = , d = 0.5390162, sig.level = 0.05, power = 0.8)
+cohen.d(dfNo9$Times, dfYes9$Times)
+pwr.t.test(n = , d = 0.5352845, sig.level = 0.05, power = 0.8)
+cohen.d(dfNo10$Times, dfYes10$Times)
+pwr.t.test(n = , d = 0.4737758, sig.level = 0.05, power = 0.8)
