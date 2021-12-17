@@ -49,3 +49,23 @@ dfNo9 = df[[1]][sample(nrow(df[[1]]), 9), ]
 # Leave 10th
 dfNo10 = df[[1]][sample(nrow(df[[1]]), 9), ]
 ##############
+# Leave 12th
+dfYes1 = df[[2]][sample(nrow(df[[2]]), 9), ]
+# Leave 16th
+dfYes2 = df[[2]][sample(nrow(df[[2]]), 9), ]
+# Leave 19th
+dfYes3 = df[[2]][sample(nrow(df[[2]]), 9), ]
+# Leave 14th
+dfYes4 = df[[2]][sample(nrow(df[[2]]), 9), ]
+# Leave 18th
+dfYes5 = df[[2]][sample(nrow(df[[2]]), 9), ]
+# Leave 13th
+dfYes6 = df[[2]][sample(nrow(df[[2]]), 9), ]
+# Leave 20th
+dfYes7 = df[[2]][sample(nrow(df[[2]]), 9), ]
+# Leave 15th
+dfYes8 = df[[2]][sample(nrow(df[[2]]), 9), ]
+# Leave 17rd
+dfYes9 = df[[2]][sample(nrow(df[[2]]), 9), ]
+# Leave 11th
+dfYes10 = df[[2]][sample(nrow(df[[2]]), 9), ]
